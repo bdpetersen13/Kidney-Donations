@@ -4,8 +4,9 @@
 ## Overview
 
 
-This repository contains the source code and data for a web application that analyzes and visualizes kidney transplants and donations data in the United States. The application is built using an SQL database for data storage, Python for backend logic, and the Dash web framework for the frontend.
+This repository contains the source code and data for a web application that analyzes and visualizes kidney transplants and donation data in the United States. The application is built using an SQL database for data storage, Python for backend logic, and the Dash web framework for the front end.
 
+https://github.com/bdpetersen13/Kidney-Donations/assets/89234922/d1f7fdd9-4589-4a87-b455-884f082e901a
 
 ## Project Structure
 
@@ -17,7 +18,7 @@ This repository contains the source code and data for a web application that ana
 ## Data
 
 ### Data Sources
-The project uses the following datasets where the data was gathered from the Organ Procurment & Transplantation Networkand the United Network for Organ Sharing:
+The project uses the following datasets where the data was gathered from the Organ Procurement & Transplantation Network and the United Network for Organ Sharing:
 
 * kidney_transplant_by_state.csv: Kidney transplant data by state and year.
 
@@ -54,7 +55,7 @@ The data provides detailed information on kidney transplants, including state-wi
 
 The web application includes:
 
-* A map of the United States color-coded based on the selected metric.
+* A color-coded map of the United States based on the selected metric.
 
 * Charts displaying trends over time for key metrics.
 
@@ -71,15 +72,15 @@ As a side note, depending on the size of your window, some information and widge
 
 ## Roadmap
 
-* Code Organization: Currently, all the main functionality of the application is inside one file, creating a long and complex codebase. The first step in improving the application will be to break down the codebase into smaller modules and functionos to improve readability and maintainability.
+* Code Organization: Currently, all the main functionality of the application is inside one file, creating a long and complex codebase. The first step in improving the application will be to break down the codebase into smaller modules and functions to improve readability and maintainability.
 
-* Error  Handling: Adding error handling will make the applicaiton more robust and better to troubleshoot issues that might occur during database queries.
+* Error  Handling: Adding error handling will make the application more robust and better at troubleshooting issues that might occur during database queries.
 
-* Inline CSS Styling: Some aspects of the code have inline css styling, and this shouold be moved to the styles.css file.
+* Inline CSS Styling: Some aspects of the code have inline CSS styling, and this should be moved to the styles.css file.
 
-* Global Variables: Update the codebase and modify the global variables to use session or cache to store and manage shared data. GLoabl variables can often lead to unexpected behavior.
+* Global Variables: Update the codebase and modify the global variables to use session or cache to store and manage shared data. Global variables can often lead to unexpected behavior.
 
-* Security: WHen the application is ready for deployment, ensure it follows best security practices, such as setting up HTTPS, securing database connections, etc.
+* Security: When the application is ready for deployment, ensure it follows best security practices, such as setting up HTTPS, securing database connections, etc.
 
 * Debug mode: Modify debug mode in production application as it could expose sensitive information and security vulnerabilities.
 
